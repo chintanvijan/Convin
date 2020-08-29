@@ -22,3 +22,15 @@ http://localhost:8000/admin
 Admin Dashboard credentials - 
 Username : admin
 Password : password
+
+To run celery script on local machine -
+Install Redis on your machine and add it to environment then,
+use following commands - 
+
+$ redis-server   (To run server)
+
+$ celery -A convin worker -l info
+
+(To stop running it press ctrl+C)
+
+$ celery -A convin beat -l info
