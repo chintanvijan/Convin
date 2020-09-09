@@ -1,5 +1,5 @@
 # Convin
-Demo task
+A demo for illustrating working of Celery in a Django Project.
 
 Make sure to install all the requirements mentioned in "requirements.txt" using pip.
 
